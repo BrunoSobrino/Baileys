@@ -1,9 +1,5 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 # Baileys Up To Date
- 
- <p align="center">
-<img width="" src="https://img.shields.io/github/repo-size/amiruldev20/baileys?color=green&label=Repo%20Size&style=for-the-badge&logo=appveyor">
-</p>
 
  ------
  Arreglos y/o correcciones - Fixes and/or corrections - Perbaikan dan/atau koreksi:
@@ -23,29 +19,28 @@
  - Koneksi harus dengan WhatsApp biasa, bukan Bisnis agar tombol dapat dikirim
  ------
 
- > **Warning**: ini hanyalah repo baileys yang sudah ter update & fix jika ada problem. memudahkan bagi pemula jika ada pull req di repo utama yang belum di acc
+ > **Warning**: Esto es solo un repositorio de Baileys que ha sido actualizado y arreglado si hay problemas. Hace mas facil para los principiantes si hay un pull request en el repositorio principal que no ha sido acreditado.
  
- > **Note**: kalau ada problem atau masalah, tanya2 ke grup dibawah ini
- 
+ > **Note**: Si hay problemas o cuestiones, pregunte al grupo siguiente
  
 GRUP INFO BAILEYS: [KLIK DISINI](https://chat.whatsapp.com/Htfi5uzYWOt0ekPu66YK4Y)
 
-#### update an sementara diberhentikan, sedang mengupdate library lainnya dan base baru direpo ini
+#### Las actualizaciones están temporalmente suspendidas, actualmente se están actualizando otras bibliotecas y la nueva base en este repositorio.
 
-### baca semua keterangan dibawah biar tahu
+### Lea toda la información a continuación para saber
 
-## 🔥 connection options
-> **Note**: setting tambahan connection option seperti dibawah ini terlebih dahulu
+## 🔥 ConnectionOptions
+> **Note**: Ajustes adicionales de la opción de la conexión como abajo primero
 ```
 const connectionOptions = {
-printQRInTerminal: true, // memunculkan qr di terminal
-syncFullHistory: false, // menerima riwayat lengkap
-markOnlineOnConnect: false, // membuat wa bot of, true jika ingin selalu menyala
-connectTimeoutMs: 60_000, // atur jangka waktu timeout
-defaultQueryTimeoutMs: 0, // atur jangka waktu query (0: tidak ada batas)
+printQRInTerminal: true, // mostrar qr en el terminal
+syncFullHistory: false, // recibir un historial completo
+markOnlineOnConnect: false, // marcar el Bot como siempre en linea
+connectTimeoutMs: 60_000, // establecer el tiempo de espera
+defaultQueryTimeoutMs: 0, // establecer el periodo de tiempo de consulta (0: sin límite)
 keepAliveIntervalMs: 10000, // interval ws
-generateHighQualityLinkPreview: true, // menambah kualitas thumbnail preview
-// patch dibawah untuk tambahan jika hydrate/list tidak bekerja
+generateHighQualityLinkPreview: true, // aumentar la calidad de las vistas previas en miniatura
+// parche de botones: no funcional actualmente
 patchMessageBeforeSending: (message) => {
     const requiresPatch = !!(
         message.buttonsMessage 
@@ -77,6 +72,6 @@ getMessage: async (key) => {
             conversation: "hello, i'm Amirul Dev"
          }
       },
-// get message diatas untuk mengatasi pesan gagal dikirim, "menunggu pesan", dapat dicoba lagi
+// obtener el mensaje anterior para resolver el mensaje no se pudo enviar, "en espera de mensaje", se puede intentar de nuevo
 }
 ```
