@@ -69,7 +69,7 @@ getMessage: async (key) => {
             return msg.message || undefined
          }
          return {
-            conversation: "hello, i'm Amirul Dev"
+            conversation: "hello, i'm BrunoSobrino"
          }
       },
 // obtener el mensaje anterior para resolver el mensaje no se pudo enviar, "en espera de mensaje", se puede intentar de nuevo
