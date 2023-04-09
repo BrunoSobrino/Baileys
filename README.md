@@ -5,6 +5,24 @@
 <img width="" src="https://img.shields.io/github/repo-size/amiruldev20/baileys?color=green&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
+ ------
+ Arreglos y/o correcciones - Fixes and/or corrections - Perbaikan dan/atau koreksi:
+ 
+ - Baileys con Botones arreglados excepto los botones de templateButtons, además los mensajes de lista solo están disponibles en chats privados. Igual se corrigieron mensajes de error en la consola (solo visual).
+ 
+ - Baileys with Buttons fixed except for templateButtons, also list messages are only available in private chats. Also fixed error messages in the console (visual only).
+ 
+ - Baileys dengan Buttons diperbaiki kecuali templateButtons, plus pesan daftar hanya tersedia di obrolan pribadi. Pesan kesalahan yang sama diperbaiki di konsol (hanya visual).
+ ------
+ Puntos importantes a considerar - Important points to consider - Poin penting untuk dipertimbangkan:
+ 
+ - La conexión debe ser con un WhatsApp normal no Business para que los botones sean enviados.
+ 
+ - The connection must be with a normal WhatsApp not Business for the buttons to be sent
+ 
+ - Koneksi harus dengan WhatsApp biasa, bukan Bisnis agar tombol dapat dikirim
+ ------
+
  > **Warning**: ini hanyalah repo baileys yang sudah ter update & fix jika ada problem. memudahkan bagi pemula jika ada pull req di repo utama yang belum di acc
  
  > **Note**: kalau ada problem atau masalah, tanya2 ke grup dibawah ini
